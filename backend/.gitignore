@@ -1,0 +1,72 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Local databases and data
+*.sqlite
+*.sqlite3
+*.db
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+
+# BullMQ / Redis local data
+redis-data/
+
+# TypeScript
+*.tsbuildinfo
+
+# Debug
+.npm/
+.cache/
+
+# Vercel
+.vercel/
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
